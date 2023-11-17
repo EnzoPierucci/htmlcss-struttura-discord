@@ -79,9 +79,9 @@
     }
 
     main{
-        height: 1000px;
+        /* height: 1000px; */
         background-color: cornflowerblue;
-        flex-basis: calc(100%/4);
+        flex-basis: calc(100%/5);
         
     }
 
@@ -116,6 +116,22 @@
     height: 250px;
     padding: 30px;
 }
+
+main section article{
+    background-color: lightsalmon;
+    color: white;
+    height: 200px;
+    width: 200px;
+}
+
+main section picture{
+    background-color:limegreen;
+    color: white;
+    height: 200px;
+    width: 200px;
+}
+
+
 
 
     
