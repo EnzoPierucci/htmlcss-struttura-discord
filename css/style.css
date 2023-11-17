@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     border: 1px solid lime;
+    list-style-type: none;
 }
 
 
@@ -19,8 +20,7 @@
 
     header div,picture,nav,button .flex-container-row{
         display: flex;
-        flex-basis: calc(100%/6);
-        gap: calc(100%/3);
+        justify-content:space-around ;
     }
     header{
         height: 500px;
@@ -30,7 +30,6 @@
 
     header div nav ul{
         display: flex;
-        list-style-type: none;
         gap: 50px;
         align-items: top;
         
@@ -131,6 +130,11 @@ main section picture{
     width: 200px;
 }
 
+.footer{
+    display: flex;
+    justify-content:space-around ;
+
+}
 
 
 
