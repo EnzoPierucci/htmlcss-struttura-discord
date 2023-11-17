@@ -78,5 +78,32 @@
         gap: 15px;  
     }
 
+    main{
+        height: 1000px;
+        background-color: cornflowerblue;
+        flex-basis: calc(100%/4);
+        
+    }
+
+   .center{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap:25px ;
+        height: 250px;
+        padding: 30px;
+        
+   }
+
+   .center-revers{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap:25px ;
+    height: 250px;
+    padding: 30px;
     
+}
+
+
     
