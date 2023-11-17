@@ -14,8 +14,13 @@
 
     .flex-container-row{
         display: flex;
-        flex-basis: calc(100%/3);
-        gap: 30%;
+        
+    }
+
+    header div,picture,nav,button .flex-container-row{
+        display: flex;
+        flex-basis: calc(100%/6);
+        gap: calc(100%/3);
     }
     header{
         height: 500px;
@@ -55,4 +60,23 @@
         width: 50px; 
         background-color: rgb(238, 255, 192);
     }
+
+    #welcome{
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+    }
+
+    div section p{
+        padding: 150px;
+        background-color: aquamarine;
+    }
+
+    div section.flex-container-row{
+        padding: 20px;
+        justify-content: center;
+        gap: 15px;  
+    }
+
+    
     
