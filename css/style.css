@@ -2,4 +2,57 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid lime;
 }
+
+
+.flex-container-column{
+    display: flex;
+    flex-direction: column;
+    
+    } 
+
+    .flex-container-row{
+        display: flex;
+        flex-basis: calc(100%/3);
+        gap: 30%;
+    }
+    header{
+        height: 500px;
+        background-color: lightblue;
+    }
+
+
+    header div nav ul{
+        display: flex;
+        list-style-type: none;
+        gap: 50px;
+        align-items: top;
+        
+        
+    }
+
+    header div nav ul li{
+        
+        background-color: red;
+        height: 30px;
+        width: 30px;  
+    }
+
+    header div picture img{
+        height: 50px;
+        width: 50px; 
+        background-color: pink;
+    }
+
+    button{
+        height: 50px;
+         
+    }
+
+    header div button a{
+        height: 50px;
+        width: 50px; 
+        background-color: rgb(238, 255, 192);
+    }
+    
